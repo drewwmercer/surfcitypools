@@ -1,0 +1,942 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="html 5 template">
+	<meta name="author" content="tonytemplates.com">
+	<link rel="icon" href="favicon.ico">
+	<title>Aqua Masters Inc :: Home</title>
+  <script>if ( top !== self && ['iPad', 'iPhone', 'iPod'].indexOf(navigator.platform) >= 0 ) top.location.replace( self.location.href );</script>
+	<!-- Bootstrap core CSS -->
+	<link href="css/plugins/bootstrap.min.css" rel="stylesheet">
+	<link href="css/plugins/bootstrap-submenu.css" rel="stylesheet">
+	<link href="css/plugins/animate.min.css" rel="stylesheet">
+	<link href="css/plugins/nivo-slider.css" rel="stylesheet">
+	<link href="css/plugins/slick.css" rel="stylesheet">
+	<link href="css/plugins/magnific-popup.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<!-- Icon Font-->
+	<link href="font/icons/style.css" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<style class="cp-pen-styles">.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width:auto;
+  max-width: 500px;
+  margin: 20px auto;
+}</style>
+	<style>
+        .blink {
+  animation: blink-animation 3s steps(5, start) infinite;
+  -webkit-animation: blink-animation 3s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+    </style>
+	<style>
+	@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+$timing        : 265ms;
+$iconColor     : #00B5F5;
+$accent        : #002A8F;
+$bluefade      : #0043E0;
+$gradient      : #00B5F5;
+
+@mixin transformScale($size: 1) {
+    transform: scale($size);
+    -ms-transform: scale($size);
+    -webkit-transform: scale($size);
+}
+.social-container {
+    width: 400px;
+    margin: 40vh auto;
+    text-align: center;
+}
+
+.social-icons {
+    padding: 0;
+    list-style: none;
+    margin: 1em;
+  
+    li {
+        display: inline-block;
+        margin: 0.15em;
+        position: relative;
+        font-size: 1.2em;
+
+    }
+
+    i {
+        color: #fff;
+        position: absolute;
+        top: 21px;
+        left: 21px;
+        transition: all $timing ease-out;
+    }
+
+    a {
+        display: inline-block;
+      
+        &:before {
+            @include transformScale();
+            content: " ";
+            width: 60px;
+            height: 60px;
+            border-radius: 100%;
+            display: block;
+            background: linear-gradient(45deg, $iconColor, $accent);
+            transition: all $timing ease-out;
+        }
+        
+        &:hover:before {
+            transform: scale(0);
+            transition: all $timing ease-in;
+        }
+        
+        &:hover i {
+            @include transformScale(2.2);
+            color: $iconColor;
+            background: -webkit-linear-gradient(45deg, $iconColor, $accent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: all $timing ease-in;
+        }
+    }
+  
+}
+	</style>
+	<style>
+.tooltipp {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipp .tooltipptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 4px 7px 6px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -250px;
+}
+
+.tooltipp:hover .tooltipptext {
+  visibility: visible;
+}
+
+
+.tooltippa {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltippa .tooltippatext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 4px 7px 6px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -350px;
+}
+
+.tooltippa:hover .tooltippatext {
+  visibility: visible;
+}
+
+
+
+.tooltippax {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltippax .tooltippatextx {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 4px 7px 6px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -350px;
+}
+
+.tooltippax:hover .tooltippatextx {
+  visibility: visible;
+}
+</style>
+<script type="text/javascript" src="https://www.aquamastersusa.com/livechat/php/app.php?widget-init.js"></script>
+</head>
+
+<body class="home">
+	<!-- Loader -->
+	<div id="loader-wrapper" class="loader-on">
+		<div id="loader">
+			<div class="loader">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p>loading</p>
+			</div>
+		</div>
+	</div>
+	<!-- //Loader -->
+	<!-- Header -->
+	<header class="page-header sticky">
+		<!-- Fixed navbar -->
+		<nav class="navbar" id="slide-nav">
+			<div class="container">
+				<div class="header-info-mobile">
+					<ul class="contact-list">
+						<li><i class="icon-location"></i>300 W Glenoaks Blvd,Glendale, CA 91202</li>
+						<li><i class="icon-call-telephone"></i>+1 818-726-4751</li>
+						<li><i class="icon-clock-round"></i>ALWAYS OPEN</li>
+						<li><i class="icon-mail"></i><a href="mailto:aquamastersinfo@gmail.com">aquamastersinfo@gmail.com</a></li>
+					</ul>
+				</div>
+				<div class="header-info-toggle"><i class="icon-up-arrow js-info-toggle"></i></div>
+				<div class="navbar-header">
+					<div class="header-top">
+						<div class="row">
+							<div class="col-sm-4 col-lg-3 hidden-xs hidden-sm" style="color: green; font-weight: bold;">
+								<ul class="contact-list">
+									<li><i class="icon-call-telephone"></i>+1 818-726-4751</li>
+									<li><i class="icon-clock-round"></i>ALWAYS OPEN</li>
+									<li><i class="icon-mail"></i><a href="mailto:aquamastersinfo@gmail.com" style="color: green; font-weight: bold;">aquamastersinfo@gmail.com</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-1 visible-lg"></div>
+							<div class="col-sm-4 logo-wrap">
+								<div class="logo">
+									<a href="index.html"><img src="images/logo2.png" alt="Logo"></a>
+								</div>
+							</div>
+							<div class="col-sm-8 col-md-4 hidden-xs hidden-sm" style="left: 6%; color: green; font-weight: bold;">
+								<ul class="contact-list">
+    
+    <li class="tooltipp"><img src="images/hammer.png" style="width : 7%;">&nbsp;CSLB #1010081&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/question.png" style="width : 4%;">
+  <span class="tooltipptext">Licensed, Bonded and Insured California Contractor</span></li>
+<li class="tooltippa"><img src="images/awardribbon.png" style="width : 6%;">&nbsp;LAHD #PRO158330&nbsp;<img src="images/question.png" style="width : 4%;">
+  <span class="tooltippatext">Los Angeles Certified commercial and residential pool professional</span></li>
+    <li class="tooltippax"><img src="images/thumsup.png" style="width : 8%;">&nbsp;Quality Guaranteed&nbsp;<img src="images/question.png" style="width : 4%;">
+	<span class="tooltippatextx">World Famous Service, World Famous smiles</span></li>
+    
+    
+    </ul>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="navbar-toggle js-navbar-toggle"><i class="icon icon-menu"></i><i class="icon icon-cancel"></i></button>
+				</div>
+				<div id="slidemenu" data-hover="dropdown" data-animations="fadeIn">
+					<div class="close-menu js-navbar-toggle"><i class="icon-close-cross"></i></div>
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li class="dropdown"><a href="#" data-toggle="dropdown">Pool<span class="ecaret"></span></a>
+							<ul class="dropdown-menu" role="menu" style="display: none;">
+								<li><a href="https://clienthub.getjobber.com/client_hubs/24f09096-809f-4c23-9bce-ea1dd5ef77c1/public/work_request/new">Pool Services</a></li>
+								<li><a href="https://clienthub.getjobber.com/client_hubs/24f09096-809f-4c23-9bce-ea1dd5ef77c1/public/work_request/new">Pool Equipment</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="#" data-toggle="dropdown">services<span class="ecaret"></span></a>
+							<ul class="dropdown-menu" role="menu" style="display: none;">
+								<li><a href="residential_pool_services.html">RESIDENTIAL POOL SERVICES</a></li>
+								<li><a href="backyard_services.html">BACKYARD SERVICES/PRODUCTS</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="#" data-toggle="dropdown" style="font-size: 20px;">Aqua Shop<span class="ecaret"></span></a>
+							<ul class="dropdown-menu" role="menu" style="display: none;">
+								<li><a href="outdoor.html">Outdoor</a></li>
+								<li><a href="https://www.aquamastersusa.com/shop/product-category/indoor/">Indoor</a></li>
+							</ul>
+						</li>
+						<li><a href="financing.html">Financing</a></li>
+						
+						<li class="dropdown"><a href="#" data-toggle="dropdown">Schedule Service Now<span class="ecaret"></span></a>
+							<ul class="dropdown-menu" role="menu" style="display: none;">
+								<li><a href="https://clienthub.getjobber.com/client_hubs/24f09096-809f-4c23-9bce-ea1dd5ef77c1/public/work_request/new">First time Customer </a></li>
+								<li><a href="https://clienthub.getjobber.com/client_hubs/24f09096-809f-4c23-9bce-ea1dd5ef77c1/login/new">Existing Customer</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="#" data-toggle="dropdown">More<span class="ecaret"></span></a>
+							<ul class="dropdown-menu" role="menu" style="display: none;">
+								<li><a href="profile-form.php">Profile Form</a></li>
+								<li><a href="payment-form.php">Payment Form</a></li>
+								<li><a href="terms-and-condition.html">Terms and Conditions</a></li>
+								<li><a href="refund-policy.html">Refund Policy / Cancellation Policy </a></li>
+								<li><a href="shipping-policy.html">Shipping Policy</a></li>
+								<li><a href="privacy-policy.html">Privacy Policy</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- // Header -->
+	<!-- Content  -->
+	<div id="page-content">
+		<!-- Slider -->
+		<div class="slider-wrapper theme-default">
+			<div id="slider" class="nivoSlider"> 
+            <img src="images/slider/slide2.jpg" title="#htmlcaption1" data-thumb="images/slider/slide2.jpg" alt="" />
+			<img src="images/slider/slide1.jpg" title="#htmlcaption2" data-thumb="images/slider/slide1.jpg" alt="" />
+			<img src="images/slider/slider4.jpg" title="#htmlcaption3" data-thumb="images/slider/slider4.jpg" alt="" /> 
+			<!--<img src="images/slider/slider5.jpg" title="" data-thumb="images/slider/slider5.jpg" alt="" /> -->
+			
+			
+			<a href="https://swimply.ref-r.com/c/i/21703/28974254" target="_blank"><img src="images/Aqua-Masters-Sliding-Screen-Banner.png" title="" data-thumb="images/Aqua-Masters-Sliding-Screen-Banner.png" alt="" /></a> </div>
+
+			<canvas id='sea'></canvas>
+			<div id="htmlcaption1" class="nivo-caption">
+				<div class="vert-wrapper">
+					<div class="vert">
+						<div class="text text1">World Famous Pool Service</div>
+					</div>
+				</div>
+			</div>
+			<div id="htmlcaption2" class="nivo-caption">
+				<div class="vert-wrapper">
+					<div class="vert">
+						<div class="text text1">Shop Fun Products in our Aqua Shop</div>
+					</div>
+				</div>
+			</div>
+			<div id="htmlcaption3" class="nivo-caption">
+				<div class="vert-wrapper">
+					<div class="vert">
+						<div class="text text1">Voted #1 in Customer Service</div>
+					</div>
+				</div>
+			</div>
+<script> 
+document.getElementById("myVideo").load();
+</script> 
+			<div id="htmlcaption2" class="nivo-caption">
+				<div class="vert-wrapper">
+					<div class="vert">
+						<div class="text text1">We Do All The Work.
+							<br>You Have All The Fun.</div>
+						<div class="text text2">Serving Your Relaxation</div>
+						<div class="text text3"><a href="#modalForm1" class="btn btn-orange modal-popup-link">Request pool service</a></div>
+					</div>
+				</div>
+			</div>
+			<div id="htmlcaption3" class="nivo-caption">
+				<div class="vert-wrapper">
+					<div class="vert">
+						<div class="text text1">Reliable Service For 100%
+							<br>Pool Enjoyment</div>
+						<div class="text text2">We Make Pools Sparkle</div>
+						<div class="text text3"><a href="#modalForm1" class="btn btn-orange modal-popup-link">Request pool service</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Slider -->
+		<!-- Services Block -->
+		<div class="block">
+			<div class="container">
+			<div class="row category-carousel">
+
+                                       <div class="col-sm-6 col-md-4">
+						<a href="weekly-pool-maintenance.html" class="category-item animation" data-animation="fadeInLeft" data-animation-delay="0s">
+							<div class="category-image"> <img src="images/category-img-07.jpg" alt="" class="img-responsive">
+								<div class="category-number">1</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">Weekly Pool Maintenance</h5>
+								<p>Voted World's best pool and backyard service by Lifestyle Magazine. Can't get much better than that</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+					</div>
+
+
+					<div class="col-sm-6 col-md-4">
+						<a href="#" class="category-item">
+							<div class="category-image"> <img src="images/category-img-03.jpg" alt="" class="img-responsive">
+								<div class="category-number">2</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">New Equipment/Products</h5>
+								<p>Aqua Masters proudly installs all major brands of equipment for your convenience</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4">
+						<a href="#" class="category-item animation" data-animation="fadeInLeft" data-animation-delay="0s">
+							<div class="category-image"> <img src="images/category-img-01.jpg" alt="" class="img-responsive">
+								<div class="category-number">3</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">Repairs</h5>
+								<p>Big or small we fix it all. Our repair division will happily address any issues with your pool</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+					</div>
+					
+					
+					
+					<div class="col-sm-6 col-md-4">
+						<a href="#" class="category-item animation" data-animation="fadeInRight" data-animation-delay="0s">
+							<div class="category-image"> <img src="images/tile.jpeg" alt="" class="img-responsive">
+								<div class="category-number">4</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">Tile Cleaning</h5>
+								<p>Restore your beautiful tile by doing a complete bead blasting service on the white calcium line around your pool and spa</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4 animation" data-animation="fadeIn" data-animation-delay="0s">
+						<a href="#" class="category-item">
+							<div class="category-image"> <img src="images/pool_solar.jpg" alt="" class="img-responsive">
+								<div class="category-number">5</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">Pool Solar</h5>
+								<p>Extend your pool season by using the sun to heat your pool. Pool solar also saves you thousands per year opposed to traditional gas heaters</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4">
+						<a href="#" class="category-item animation" data-animation="fadeIn" data-animation-delay="0s">
+							<div class="category-image"> <img src="images/category-img-11.jpg" alt="" class="img-responsive">
+								<div class="category-number">6</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">Pool Painting</h5>
+								<p>Improve your pool surface for a fraction of the cost that it takes to re-plaster. These one time services can add beauty to your pool without breaking your wallet</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+					</div>
+					
+				</div>	
+			</div>
+			<div><h5 style="color: hotpink; text-align: center;" class="blink"><p style="text-align: center; font-size: 20px;"><b>FINANCING AVAILABLE on all our Services</b></p></h5></div>
+		</div>
+		<!-- //Services Block -->
+		
+		
+		<!-- Why Choose Block -->
+		<div class="block bottom-sm-margin fixblock">
+			<div class="container">
+				<h2 class="decor color text-center">Why choose us?</h2>
+				<div class="row text-icon-carousel step-animation-container">
+					<div class="col-sm-4">
+						<div class="text-icon step-animation" data-animation="fadeInUp" data-animation-delay="0s">
+							
+							<h5 class="text-icon-title" style="color: #005395;">Priority Advantage</h5>
+							<div class="text-icon-text">Whether it’s an exciting new product or much needed service to complete your paradise, we make it a point to handle your project quickly and efficiently. Our team is always available to make our clients feel important </div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="text-icon step-animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+							
+							<h5 class="text-icon-title" style="color: #005395;">Technology</h5>
+							<div class="text-icon-text">Embracing the future, we have made painstaking strides to allow the most convenient service to our clients. Our digital app allows us to see job status, check-in times, chemical readings and even pictures of repairs needed for our service departments and our easy to use website allows buying products simple and convenient.</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="text-icon step-animation" data-animation="fadeInUp" data-animation-delay="0.8s">
+							
+							<h5 class="text-icon-title" style="color: #005395;">Continued Education</h5>
+							<div class="text-icon-text">Our belief that knowledge is power fuels our team to constantly get better. Learning new products, attending trade shows, seminars and manufacturer workshops keep us at the top of our game. If we don’t know the answer, you can bet we will keep working to will find it for you.</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="text-icon step-animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+							
+							<h5 class="text-icon-title" style="color: #005395;">Financing</h5>
+							<div class="text-icon-text">Our dream was to offer the best backyard services and products to our clients without cost affecting quality. We are proud to have partnered with Synchrony Bank to accomplish just that. Our clients can enjoy most of our services and products with no money down and no interest for 18 month's.</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="text-icon step-animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+							
+							<h5 class="text-icon-title" style="color: #005395;">Fun and Games</h5>
+							<div class="text-icon-text">We like to embrace the happy times of life which is why you will find all sorts games to share with your friend and family. We even have safety services such as pool fences and fire safety kits to protect your loves ones when it matters most.</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-4">
+						<div class="text-icon step-animation" data-animation="fadeInUp" data-animation-delay="1s">
+							
+							<h5 class="text-icon-title" style="color: #005395;">R @ R Effect</h5>
+							<div class="text-icon-text">Richard and Ryan combine new school innovation with old school work ethic. When you put 2 horses together they don’t go 2x as fast, they go 3x as fast. With the combined goal of becoming the best in the industry, these two friend have broken down the doors of what a pool company can accomplish</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="container">
+			<div class="row category-carousel">
+					
+			<div class="col-sm-6 col-md-4">
+						<a href="#" class="category-item animation" data-animation="fadeInLeft" data-animation-delay="0s">
+							<div class="category-image"> <img src="images/category-img-01.jpg" alt="" class="img-responsive">
+								<div class="category-number">1</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">Repairs</h5>
+								<p>Our pool repair services can help you fix any leak, valve replacement or pump malfunctions</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+			</div>
+			<div class="col-sm-6 col-md-4 animation" data-animation="fadeIn" data-animation-delay="0s">
+						<a href="#" class="category-item">
+							<div class="category-image"> <img src="images/category-img-02.jpg" alt="" class="img-responsive">
+								<div class="category-number">2</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">Renovations</h5>
+								<p>We can help design and restore old pools to look brand new!</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+			</div>
+			<div class="col-sm-6 col-md-4 animation" data-animation="fadeInRight" data-animation-delay="0s">
+						<a href="#" class="category-item">
+							<div class="category-image"> <img src="images/category-img-03.jpg" alt="" class="img-responsive">
+								<div class="category-number">3</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">Equipment Install</h5>
+								<p>Our expert pool technicians make it easy to install your new pool equipment</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+			</div>
+			<div class="col-sm-6 col-md-4">
+						<a href="#" class="category-item animation" data-animation="fadeInRight" data-animation-delay="0s">
+							<div class="category-image"> <img src="images/tile.jpeg" alt="" class="img-responsive">
+								<div class="category-number">4</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">Tile Cleaning</h5>
+								<p>Restore your beautiful tile by doing a complete bead blasting service on the white calcium line around your pool and spa</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4 animation" data-animation="fadeIn" data-animation-delay="0s">
+						<a href="#" class="category-item">
+							<div class="category-image"> <img src="images/pool_solar.jpg" alt="" class="img-responsive">
+								<div class="category-number">5</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">Pool Solar</h5>
+								<p>Extend your pool season by using the sun to heat your pool. Pool solar also saves you thousands per year opposed to traditional gas heaters</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4">
+						<a href="#" class="category-item animation" data-animation="fadeIn" data-animation-delay="0s">
+							<div class="category-image"> <img src="images/category-img-11.jpg" alt="" class="img-responsive">
+								<div class="category-number">6</div>
+								<div class="wave-wrapper">
+									<div class="wave"></div>
+								</div>
+							</div>
+							<div class="category-text">
+								<h5 class="category-title">Pool Painting</h5>
+								<p>Improve your pool surface for a fraction of the cost that it takes to re-plaster. These one time services can add beauty to your pool without breaking your wallet</p>
+								<span class="category-more-link"><span class="icon icon-right-arrow"></span>
+								</span>
+							</div>
+						</a>
+					</div>
+			</div>		
+			</div>
+			<div><h5 style="color: hotpink; text-align: center;" class="blink"><p style="text-align: center; font-size: 20px;"><b>FINANCING AVAILABLE on all our Services</b></p></h5></div>
+		</div>
+		<!-- //Why Choose Block -->
+		<!-- How work Block -->
+		<div class="block bg-1">
+			<div class="container">
+				<h2 class="text-center decor decor-white">How it works</h2>
+				<div class="row number-carousel step-animation-container">
+					<div class="col-sm-6">
+						<div class="text-num step-animation" data-animation="fadeInLeft" data-animation-delay="0s">
+							<div class="text-num-num"><span>1</span></div>
+							<div class="text-num-info">
+								<h5 class="text-num-title">Submit your service request</h5>
+								<p>Fill out the pool profile form. It takes less than minute to complete and emails us your information immediately so we can get your estimate prepared and your project started right away. It is very important to us to give you the quality service you deserve the first time around.</p>
+<p><a href="profile-form.php" style="color: #fff;">Please click to go the Profile Form</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="text-num step-animation" data-animation="fadeInRight" data-animation-delay="0s">
+							<div class="text-num-num"><span>2</span></div>
+							<div class="text-num-info">
+								<h5 class="text-num-title">Schedule an Estimate</h5>
+								<p>After you submit your pool profile form, we will now schedule a time to come out and provide you with an estimate. In a lot of cases, an estimate can be even prepared and emailed to you immediately if you attach pictures of your project in your profile form saving you time, headache, and money.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="text-num last step-animation" data-animation="fadeInLeft" data-animation-delay="0.8s">
+							<div class="text-num-num"><span>3</span></div>
+							<div class="text-num-info">
+								<h5 class="text-num-title">Project is scheduled</h5>
+								<p>After your estimate is received and approved. We are now ready to schedule your project. It is our goal to accommodate our clients pool and backyard goals as soon as possible so you can get back to enjoying your backyard. We can typically schedule most projects within 24hrs</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="text-num last step-animation" data-animation="fadeInRight" data-animation-delay="0.8s">
+							<div class="text-num-num"><span>4</span></div>
+							<div class="text-num-info">
+								<h5 class="text-num-title">Final Product</h5>
+								<p>After your project is completed, a quality assurance walk-through will be completed to ensure you received the quality work your deserve</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //How work Block -->
+		<!-- News Block -->
+		<div class="block bottom-sm-margin financingbg">
+			<div class="container">
+				<h2 class="decor color text-center" style="color: #fff;">Financing</h2>
+                                <h5 style="text-align: center; color: red;" class="text-num-title">What makes us different from our competitors</h5>
+                                <h5 style="text-align: center; color: red;" class="text-num-title">GET TODAY, PAY LATER</h5>
+                                <p style="color: #000;">Our main goal at Aqua Masters is to provide our clients with the best pool and backyard experience possible which is why we have found a way to offer all our services with low monthly payments. Now you have the piece of mind to make your backyard paradise without the stress of worrying how to pay for it.</p>
+			</div>
+		</div>
+		<!-- //News Block -->
+		
+		<!-- Testimonials Block -->
+		<div class="block bottom-md-margin">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-8">
+						<div class="testimonials animation" data-animation="fadeInLeft">
+							<h3 class="color decor text-center">Testimonials</h3>
+							<div class="testimonials-carousel">
+								<div class="testimonials-item">
+									<div class="testimonials-text">Our pool had recently been refurbished, however the contractor left and when the filter shut off the spa emptied into the pool, multiple attempts were made to solve but a month later, it was not solved.  Frustrated and desperate, we found Richard and Aqua Masters, one email on a Sunday, scheduled a visit on Monday and by Wednesday, problem solved!!!  Thank you thank you!</div>
+									<div class="testimonials-username">Glendale, CA</div>
+								</div>
+								<div class="testimonials-item">
+									<div class="testimonials-text">I couldn't be happier with Aqua Masters.  I had to replace a malfunctioning pool heater, did my research, decided on a model. Richard recommended an option that I wasn't aware of, I did my research on that one, turned out it was a much better fit for my situation for about the same cost. Richard called me a few days before the install, asked to come by to measure again so that they would have all the parts needed.  They showed up on time, as Richard had for the prior two appointments (kind of rare in this business), completed the work within the time estimate, and it's been working flawlessly for 2 months.  They even upgraded some parts on my filter for no additional cost.  Although not the least expensive, what you are getting is Richard's expertise, advice and his crew's professionalism, truly top end service for a reasonable price.</div>
+									<div class="testimonials-username">San Gabriel, CA</div>
+								</div>
+								<div class="testimonials-item">
+									<div class="testimonials-text">My pool pump died just as the weather got really hot and I wanted to start swimming. Rich had his team come over within a couple of days to put in a new one. Then they discovered that my previous pump had been installed incorrectly. The whole team is smart and do not compromise. Rich ended up coming over himself to make sure that everything was rewired correctly. Later, he even came by at no extra charge when I called to say that my pool sweep was not working after I had disconnected it.  He truly seems to enjoy what he does and is very knowledgeable and helpful and responsive. I will absolutely call them any time that I need anything for my pool.</div>
+									<div class="testimonials-username">Burbank, CA</div>
+								</div>
+								<div class="testimonials-item">
+									<div class="testimonials-text">Aqua Masters Pool & Spa is an incredible company! They offer excellent pool service and so much more. The workers and technicians are professional and kind. I feel comfortable with them on the property. This company keeps the pool running and clean. They have a family friendly approach to their business. I am grateful for Aqua Masters Pool & Spa. I would highly recommend them!</div>
+									<div class="testimonials-username">Burbank, CA</div>
+								</div>
+
+                                                                <div class="testimonials-item">
+									<div class="testimonials-text">Click here for more reviews from our happy customers
+<p>&nbsp;</p>
+<p><a href="https://www.google.com/search?q=aquamasters&rlz=1C1SQJL_enUS786US786&oq=aquamasters&aqs=chrome..69i57j69i60l3j35i39j0.1926j0j8&sourceid=chrome&ie=UTF-8#lrd=0x80c2c04eeb400001:0x11ecc10fa4e7113d,1,,">Google</a></p>
+<p><a href="https://www.yelp.com/biz/aqua-masters-pool-and-spa-la-canada-2">Yelp</a></p>
+</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="request-form animation" data-animation="fadeInRight">
+							<h4>REQUEST AN ESTIMATE</h4>
+							<div>Our estimates are free, professional and fair. Most estimates require a site visit. </div>
+							<form class="request-form-js" id="requestFormSimple" method="post">
+								<div class="successform">
+									<p>Your message was sent successfully!</p>
+								</div>
+								<div class="errorform">
+									<p>Something went wrong, try refreshing and submitting the form again.</p>
+								</div>
+								<input class="input-custom input-full" type="text" name="name" placeholder="Name:" />
+								<input class="input-custom input-full" type="text" name="phone" placeholder="Phone:" />
+								<input class="input-custom input-full" type="text" name="email" placeholder="Email:" />
+								<textarea class="input-custom input-full" type="text" name="message" placeholder="Message:"></textarea>
+								<button type="submit" class="btn btn-orange">SEND MESSAGE</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Testimonials Block -->
+	</div>
+	<!-- // Content  -->
+	<!-- Footer -->
+	<div class="page-footer">
+		<div class="back-to-top"><a href="#top"><span class="icon icon-up-arrow"></span></a></div>
+		<div class="container">
+			<div class="footer-menu hidden-sm hidden-xs">
+				<ul>
+					<li><a href="index.html">home</a></li>
+					<li><a href="about.html">about</a></li>
+					<li><a href="gallery.html">gallery</a></li>
+					<li><a href="financing.html">Financing</a></li>
+					<li><a href="contact.html">contact</a></li>
+					<li><a href="terms-and-condition.html">Terms & Condition</a></li>
+                                        
+				</ul>
+			</div>
+			<div class="row footer-row">
+				<div class="col-sm-4">
+					<ul class="contact-list">
+						<li><i class="icon-location"></i>300 W Glenoaks Blvd,
+							<br>Glendale, CA 91202</li>
+						<li><i class="icon-clock-round"></i>7:00 AM – 5:00 PM / 5 Days</li>
+					</ul>
+				</div>
+				<div class="col-sm-4 logo-wrap">
+					<div class="logo blinkk" id="fo">
+						<a href="index.html"><img src="images/callus.png" style="border-radius: 54px;" alt="Logo"></a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<ul class="contact-list">
+						<li class="mb-40"><i class="icon-call-telephone"></i>
+							<div class="phone-number">+1 818-726-4751</div>
+						</li>
+						<li><i class="icon-mail"></i><a href="mailto:aquamastersinfo@gmail.com">aquamastersinfo@gmail.com</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bot">
+				<div class="copyright">Aqua Masters Inc. © 2019 | Contractor License #1010081 | Health Department License #PR0158330</div>
+				<div class="social-links">
+					<ul class="social-icons">
+        <li><a target="_blank" href="https://www.facebook.com/AquaMastersCorp/"><i class="fa fa-facebook"></i></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/aquamastersinc/"><i class="fa fa-instagram"></i></a></li>
+        <li><a target="_blank" href="https://www.yelp.com/biz/aqua-masters-pool-and-spa-la-canada-2"><i class="fa fa-yelp"></i></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/channel/UCXVXHhY0NAC0AK6s1Cg4ArA?view_as=subscriber"><i class="fa fa-youtube"></i></a></li>
+    </ul>
+				</div>
+			</div>
+		</div>
+		<canvas id='footerSea'></canvas>
+	</div>
+	<!-- //Footer -->
+	<div id="modalForm1" class="form-modal">
+		<!-- request form -->
+		<div class="request-form-popup">
+			<form class="request-form-js" id="requestForm" method="post">
+				<div class="text-center">
+					<h3>Request Pool Service</h3>
+					<p>Our estimates are free, professional and fair. Most estimates require a site visit. </p>
+					<div class="successform">
+						<p>Your message was sent successfully!</p>
+					</div>
+					<div class="errorform">
+						<p>Something went wrong, try refreshing and submitting the form again.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<input type="text" placeholder="Name" name="name">
+						<input type="text" placeholder="E-mail" name="email">
+						<input type="text" placeholder="Phone" name="phone">
+						<textarea placeholder="Message" name="message" class="input-full"></textarea>
+						<div class="hidden-xs">
+							<button type="submit" class="btn btn-orange">Submit</button>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="form-row">
+							<p class="p-label">Service needed for:</p>
+							<div class="radio-row">
+								<div class="radio">
+									<input id="radio-1" name="radio1" type="radio" value="Pool" checked>
+									<label for="radio-1" class="radio-label">Pool</label>
+								</div>
+								<div class="radio">
+									<input id="radio-2" name="radio1" type="radio" value="Hot Tub">
+									<label for="radio-2" class="radio-label">Hot Tub</label>
+								</div>
+								<div class="radio">
+									<input id="radio-3" name="radio1" type="radio" value="Both">
+									<label for="radio-3" class="radio-label">Both</label>
+								</div>
+							</div>
+							<div class="select-wrapper">
+								<select name="select1">
+									<option value="">Choose the services you want to request</option>
+									<option value="Pool Draining">Pool Draining</option>
+									<option value="Drain and Clean">Drain & Clean</option>
+									<option value="Filter Cleaning">Filter Cleaning</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-row">
+							<p class="p-label">What size is your pool?</p>
+							<div class="radio-row">
+								<div class="radio">
+									<input id="radio-4" name="radio2" type="radio" value="Small" checked>
+									<label for="radio-4" class="radio-label">Small</label>
+								</div>
+								<div class="radio">
+									<input id="radio-5" name="radio2" type="radio" value="Medium">
+									<label for="radio-5" class="radio-label">Medium</label>
+								</div>
+								<div class="radio">
+									<input id="radio-6" name="radio2" type="radio" value="Large">
+									<label for="radio-6" class="radio-label">Large</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+							<p class="p-label">How often would you like it to be serviced?</p>
+							<div class="radio-row">
+								<div class="radio">
+									<input id="radio-7" name="radio3" type="radio" value="Weekly" checked>
+									<label for="radio-7" class="radio-label">Weekly</label>
+								</div>
+								<div class="clearfix"></div>
+								<div class="radio">
+									<input id="radio-8" name="radio3" type="radio" value="Fortnightly">
+									<label for="radio-8" class="radio-label">Fortnightly</label>
+								</div>
+								<div class="clearfix"></div>
+								<div class="radio">
+									<input id="radio-9" name="radio3" type="radio" value="Monthly">
+									<label for="radio-9" class="radio-label">Monthly</label>
+								</div>
+								<div class="clearfix"></div>
+								<div class="radio">
+									<input id="radio-10" name="radio3" type="radio" value="Once only">
+									<label for="radio-10" class="radio-label">Once only</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="visible-xs text-center">
+						<div class="divider-md"></div>
+						<button type="submit" class="btn btn-orange">Submit</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!-- //request form -->
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins/bootstrap.min.js"></script>
+	<script src="js/plugins/jquery.nivo.slider.js"></script>
+	<script src="js/plugins/slick.min.js"></script>
+	<script src="js/plugins/jquery.magnific-popup.min.js"></script>
+	<script src="js/plugins/jquery.waypoints.min.js"></script>
+	<script src="js/plugins/jquery.countTo.js"></script>
+	<script src="js/plugins/scrollLock.min.js"></script>
+	<script src="js/plugins/jquery.form.js"></script>
+	<script src="js/plugins/jquery.validate.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+    var f = document.getElementById('Fooo');
+    setInterval(function() {
+        f.style.display = (f.style.display == 'none' ? '' : 'none');
+    }, 1400); 
+    
+});
+	</script>
+	
+</body>
+
+</html>
